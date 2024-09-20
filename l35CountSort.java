@@ -37,7 +37,7 @@ public class l35CountSort {
         for (int i = 1; i < count.length; i++) {
             count[i]+=count[i-1];   // creating prefix sum array.
         }
-        for (int i = arr.length-1; i>=0; i--) {
+        for (int i = arr.length-1; i>=0; i--) { // Sorting happens
             int idx = count[arr[i]]-1;
             output[idx] = arr[i];
             count[arr[i]]--;
