@@ -8,10 +8,9 @@ public class l6P6Power {
             int a = sc.nextInt();
             int b = sc.nextInt();
             int power = 1;
-            int i = 1;
-            while(b>=i){
-                power*=a;
-                i++;
+            while (b >= 1) {
+                power *= a;
+                b--;
             }
             System.out.println(power);
         }

@@ -1,21 +1,25 @@
 package L10Package;
+
 class InnerApp {
-    int arr[]=new int[10];
-    public InnerApp(){
-        int arr[]=new int[10];
+    int arr[];
+
+    public InnerApp() {
+        this.arr = new int[10];
     }
-    public int[] Insert(){
+
+    public int[] Insert() {
         return arr;
     }
-    
+
 }
+
 public class App {
-    void greet(){
+    void greet() {
         System.out.println("Namaste!");
     }
+
     public static void main(String[] args) {
-        int arr[]= new int[10];
+        int arr[] = new int[10];
         System.out.println(arr[1]);
     }
 }
-
