@@ -7,6 +7,8 @@ public class l54HashSet {
         HashSet<Integer> hs = new HashSet<>();
         hs.add(10);
         hs.add(9);
+        System.out.println(hs.isEmpty());
+        System.out.println(hs.add(11));
         System.out.println(hs.contains(10));
         for (Integer integer : hs) {
             System.out.println(integer);

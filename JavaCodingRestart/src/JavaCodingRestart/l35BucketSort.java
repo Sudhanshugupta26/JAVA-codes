@@ -9,7 +9,7 @@ public class l35BucketSort {
         int n = arr.length;
         // creating buckets
         ArrayList<Float>[] buckets = new ArrayList[n]; // creating array of arraylists since we don't know the number of elements.
-        // creeating empty buckets
+        // creating empty buckets
         for (int i = 0; i < n; i++) {
             buckets[i] = new ArrayList<Float>();  // created each element of bucket as arraylist.
         }

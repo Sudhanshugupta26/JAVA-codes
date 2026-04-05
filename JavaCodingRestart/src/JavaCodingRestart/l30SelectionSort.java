@@ -2,9 +2,9 @@ package JavaCodingRestart;
 
 public class l30SelectionSort {
     public static void selectionSort(int arr[]){
-        for (int i = 0; i < arr.length-1; i++) {
+        for (int i = 0; i < arr.length; i++) {
             int count = i;
-            for (int j = i; j < arr.length-1; j++) {
+            for (int j = i; j < arr.length; j++) {
                 if(arr[count]>arr[j]){
                     count = j;
                 }

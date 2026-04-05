@@ -14,11 +14,13 @@ public class l49Deque {
         System.out.println(dq);
         dq.remove();
         System.out.println(dq);
+        System.out.println(dq.peekLast());
         dq.removeLast();
         System.out.println(dq);
         dq.addFirst(5);
         System.out.println(dq);
         dq.add(2);
+        dq.remove();
         System.out.println(dq);
         dq.removeFirstOccurrence(2);
         System.out.println(dq);

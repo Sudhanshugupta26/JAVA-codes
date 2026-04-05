@@ -11,9 +11,13 @@ public class l42Constructor {
             name = string;
             precentage = d;
         }
+        @Override
+        public String toString(){
+            return "Rno: "+rno+", Name: "+name+", Percentage: "+precentage;
+        }
     }
     public static void main(String[] args) {
         Constructor s1 = new Constructor(29,"Sudhanshu",92.2);
-        System.out.println(s1.name);
+        System.out.println(s1);
     }
 }

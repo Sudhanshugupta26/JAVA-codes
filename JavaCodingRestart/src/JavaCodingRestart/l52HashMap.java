@@ -8,6 +8,7 @@ public class l52HashMap {
         Map<String, Integer> mp = new HashMap<>();
         mp.put("Sudhanshu", 26); // Add key-value to map
         mp.put("Tushar", 21);
+        System.out.println(mp.isEmpty());
         System.out.println(mp.get("Sudhanshu")); //26
         System.out.println(mp.get("Raghav")); //null
         mp.put("Sudhanshu", 02); // can not contain duplicate so it updates the value in specified key if it exist

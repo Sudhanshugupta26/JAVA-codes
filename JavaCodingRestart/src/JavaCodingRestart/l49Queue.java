@@ -18,6 +18,7 @@ public class l49Queue {
         }
         System.out.println(q);
         System.out.println(helper);
+        System.out.println(helper.isEmpty());
         System.out.println(helper.remove());
         System.out.println(helper);
     }

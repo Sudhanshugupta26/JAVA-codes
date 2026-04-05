@@ -2,7 +2,7 @@ package JavaCodingRestart;
 
 public class l34QuickSort {
     static int partition(int[] arr,int start,int end){
-        int piv =(int) Math.random()*(end-start+1) + start ;
+        int piv =(int) Math.random()*(end-start) + start ;
         int count=0;
         for (int i = start; i <= end; i++) {
             if (arr[piv]>arr[i]) {

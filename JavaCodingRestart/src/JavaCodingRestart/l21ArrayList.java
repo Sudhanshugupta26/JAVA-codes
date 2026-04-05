@@ -34,11 +34,11 @@ public class l21ArrayList {
         System.out.println(l1);
 
         // removing ele by index
-        l1.remove(1);
+        l1.remove(2);
         System.out.println(l1);
 
         // removing an ele by value
-        l1.remove(Integer.valueOf(1));
+        l1.remove(Integer.valueOf(4));
         System.out.println(l1);
         l1.remove(Integer.valueOf(1843875));    // Doesn't give error.
         System.out.println(l1.remove(Integer.valueOf(1843875)));    // gives false b/c not present.

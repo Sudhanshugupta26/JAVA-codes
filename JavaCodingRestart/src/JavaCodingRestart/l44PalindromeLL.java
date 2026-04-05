@@ -50,7 +50,7 @@ public class l44PalindromeLL {
         Node a = new Node(5);
         Node b = new Node(44);
         Node c = new Node(234);
-        Node d = new Node(99);
+        Node d = new Node(44);
         Node e = new Node(5);
         a.next = b;
         b.next = c;

@@ -15,7 +15,7 @@ public class l31InsertionSort {
     }
 
     public static void main(String[] args) {
-        int arr[] = {1,2,3,6,5,4,7,8};
+        int arr[] = {3,2,1,6,5,4,7,8};
         insertionSort(arr);
         for (int i : arr) {
             System.out.println(i);

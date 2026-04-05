@@ -11,10 +11,10 @@ public class l21P3SortArrayList {
         l1.add(323);
         l1.add(4);
         System.out.println(l1);
-        Collections.sort(l1);   // Can also Sort ArrayList of Any DataType.
+        Collections.sort(l1); // Can also Sort ArrayList of Any DataType.
         System.out.println(l1);
-        Collections.sort(l1,Collections.reverseOrder());
+        Collections.sort(l1, Collections.reverseOrder());
         System.out.println(l1);
-        
-}
+
+    }
 }

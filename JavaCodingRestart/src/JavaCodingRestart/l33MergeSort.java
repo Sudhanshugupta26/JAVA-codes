@@ -33,10 +33,9 @@ public class l33MergeSort {
         mergeSort(arr, a, mid);
         mergeSort(arr, mid+1, l);
         merge(arr,a,mid,l);
-        return;
     }
     public static void main(String[] args) {
-        int arr[] = {4,2,7,22,77,33,1,88};
+        int arr[] = {4,2,7,22,77,33,1,88,0};
         mergeSort(arr,0,arr.length-1);
         for (int i : arr) {
             System.out.println(i);
