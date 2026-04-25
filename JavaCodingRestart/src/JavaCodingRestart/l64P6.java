@@ -38,6 +38,8 @@ public class l64P6 {
     }
 
     public static void main(String[] args) {
+        List<Integer> list = new ArrayList<>();
+        System.out.println(list.size());
         PriorityQueue<Integer> rightPQ = new PriorityQueue<>();//Min heap
         PriorityQueue<Integer> leftPQ = new PriorityQueue<>(Comparator.reverseOrder());
         insert(rightPQ, leftPQ, 15);

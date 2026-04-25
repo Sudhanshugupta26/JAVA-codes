@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class L68GraphsQ3 {
+public class l68GraphsQ3 {
     public boolean validPath(int n, int[][] edges, int source, int destination) {
 
         List<List<Integer>> adj = new ArrayList<>();    // Creating our own adjacency list first

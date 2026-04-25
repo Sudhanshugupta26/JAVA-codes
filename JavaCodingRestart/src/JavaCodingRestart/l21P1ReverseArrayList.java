@@ -3,15 +3,16 @@ package JavaCodingRestart;
 import java.util.ArrayList;
 
 public class l21P1ReverseArrayList {
-    static void reverseArrayList(ArrayList<Integer> list){
-        int mid = list.size()/2;
-        int length = list.size()-1;
+    static void reverseArrayList(ArrayList<Integer> list) {
+        int mid = list.size() / 2;
+        int length = list.size() - 1;
         for (int i = 0; i < mid; i++) {
-            Integer temp = Integer.valueOf(list.get(i));
-            list.set(i,list.get(length-i));
-            list.set(length-i, temp);
+            Integer temp = list.get(i);
+            list.set(i, list.get(length - i));
+            list.set(length - i, temp);
         }
     }
+
     public static void main(String[] args) {
         ArrayList<Integer> l1 = new ArrayList<>();
         l1.add(1);

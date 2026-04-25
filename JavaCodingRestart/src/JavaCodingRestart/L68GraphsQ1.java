@@ -3,7 +3,7 @@ package JavaCodingRestart;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class L68GraphsQ1 {
+public class l68GraphsQ1 {
     public int findCircleNum(int[][] adj) {
         int n = adj.length;
         int count  = 0;

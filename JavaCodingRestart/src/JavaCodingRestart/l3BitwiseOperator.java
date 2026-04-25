@@ -5,7 +5,7 @@ public class l3BitwiseOperator {
         int p = 9, q = 8, r = 8;
         System.out.println(p | q);
         System.out.println(p & q);
-        System.out.println(p ^ r);// XOR, basically returns 1 if not same and 0 for the same.
+        System.out.println(q ^ r);// XOR, basically returns 1 if not same and 0 for the same.
         System.out.println(~r);
         System.out.println(p << 1);// left shift 1 digit, *2
         System.out.println(q >> 1);// right shift 1 digit, /2
